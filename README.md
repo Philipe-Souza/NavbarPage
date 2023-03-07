@@ -1,3 +1,3 @@
-# HTML/CSS Quix
+# HTML/CSS Quiz
 
 Simple page with nav and inputs
