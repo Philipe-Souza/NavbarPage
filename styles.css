@@ -57,10 +57,6 @@ main {
     margin: 0 auto;
 }
 
-section {
-    height: 500px;
-}
-
 h2 {
     border-bottom: 4px solid #404040;
     margin-top: 0px;
@@ -71,4 +67,9 @@ h2 {
 a {
     color: #cdb200;
     text-decoration: none;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
 }
