@@ -65,11 +65,12 @@ h2 {
   }
 
 a {
-    color: #cdb200;
+    color: #eacb00;
     text-decoration: none;
 }
 
 label {
     display: block;
     margin: 8px 0;
+    color: #eacb00;
 }
