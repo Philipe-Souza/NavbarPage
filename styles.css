@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
 body {
     margin: 0;
     background-color: #757575;
@@ -13,7 +19,7 @@ header {
     height: 50px;
     position: fixed;
     top: 0;
-    color: #cdb200;
+    color: #eacb00;
 }
 
 nav {
@@ -43,4 +49,26 @@ nav ul li {
 
 nav ul li:hover {
     background-color: black;
+}
+
+main {
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+section {
+    height: 500px;
+}
+
+h2 {
+    border-bottom: 4px solid #404040;
+    margin-top: 0px;
+    padding-top: 60px;
+    color: #eacb00;
+  }
+
+a {
+    color: #cdb200;
+    text-decoration: none;
 }
