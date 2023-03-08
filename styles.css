@@ -70,7 +70,17 @@ a {
 }
 
 label {
-    display: block;
+    display: flex;
     margin: 8px 0;
     color: #eacb00;
+}
+
+.box-text {
+    width: 200px;
+    min-width: 100px;
+    margin-left: 8px;
+}
+
+.age {
+    margin-left: 20px;
 }
