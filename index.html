@@ -21,17 +21,23 @@
             <form method="post">
             <section id="student-info">
                 <h2>Student Info</h2>
-                <div class="question">
+                <div class="student-data">
                 <label class="label-info" for="name">Name: </label><input class="input-info" id="name" name="name" required>
                 <label class="label-info" for="email">Email: </label><input class="input-info" id="email" name="email" type="email" required>
                 <label class="label-info" for="age">Age: </label><input class="input-info" id="age" name="age" type="number" min="13" max="120" required/>
                 </div>
             </section>
-            <section>
-                <h2 id="html-questions">HTML</h2>
+            <section id="html-questions">
+                <h2>HTML</h2>
+                <h3>Question 1</h3>
+                <p>The legend element represents a caption for the content of its parent fieldset element</p>
+                <ul class="answer">
+                    <li><input class="input-info" id="q1true" name="v/f" type="radio" required><label class="label-info" for="q1true">True</label></li>
+                    <li><input class="input-info" id="q1false" name="v/f" type="radio" required><label class="label-info" for="q1false">False </label></li>
+                </ul>
             </section>
-            <section>
-                <h2 id="css-questions">CSS</h2>
+            <section id="css-questions">
+                <h2>CSS</h2>
             </section>
             <button type="submit">Send</button>
         </form>

@@ -71,7 +71,7 @@ a {
     text-decoration: none;
 }
 
-.question {
+.student-data {
     width: 80%;
     max-width: 300px;
 }
@@ -88,4 +88,13 @@ a {
 .label-info {
     width: 20%;
     min-width: 50px;
+}
+
+.answer {
+    list-style: none;
+    padding: 0;
+}
+
+.answer .input-info, .answer .label-info {
+    width: fit-content;
 }
