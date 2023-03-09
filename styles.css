@@ -98,3 +98,8 @@ a {
 .answer .input-info, .answer .label-info {
     width: fit-content;
 }
+
+.question {
+    border: none;
+    padding: 0;
+}
