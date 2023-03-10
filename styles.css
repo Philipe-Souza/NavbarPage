@@ -54,7 +54,7 @@ nav ul li:hover {
 
 main {
     width: 80%;
-    max-width: 600px;
+    max-width: 500px;
     padding-top: 50px;
     margin: 0 auto;
 }
@@ -102,4 +102,11 @@ a {
 .question {
     border: none;
     padding: 0;
+}
+
+button {
+    display: block;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
 }
